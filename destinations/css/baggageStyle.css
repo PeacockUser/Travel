@@ -1,0 +1,56 @@
+ul.bp_list li.baggage_policy {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    height: 45px;
+    align-items: center;
+    width: 32.33%;
+    margin: 0 0.5%;
+    float: left;
+    margin-bottom: -1px;
+}
+
+ul.bp_list {
+    display: flex;
+    /* flex-direction: column; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    column-count: 3;
+}
+
+    ul.bp_list li.baggage_policy p span img {
+        max-width: 55px;
+        max-height: 34px;
+        display: inline-block !important;
+    }
+
+    ul.bp_list li.baggage_policy p {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.bp_list li.baggage_policy a {
+        background: #0c5178;
+        color: #fff;
+        font-size: 12px;
+        padding: 0px 5px;
+        border-radius: 5px;
+    }
+
+.notesDiv p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+    .notesDiv p b {
+        font-weight: 500;
+    }
+
+@media (max-width: 767px) {
+    ul.bp_list li.baggage_policy{
+        width:100%;
+    }
+}
